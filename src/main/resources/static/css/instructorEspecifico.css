@@ -1,0 +1,118 @@
+body {
+    background-color: white;
+}
+/*rgba(245, 246, 247, 1);*/
+/* Barra superior */
+.navbar {
+    background-color: #CAF0F8;
+    padding: 0.7rem;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand {
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+.s-btn{
+    margin-right: 8px;
+}
+.logo {
+    margin-right: 80px;
+}
+.logo .navbar-brand:last-child {
+    margin-left: -18px;
+}
+
+/*Contenido principal*/
+.main-content {
+    margin-top: 20px;
+}
+.left {
+    margin-left: 10px;
+    margin-right: 60px;
+}
+.left h1 {
+    color: #03045E;
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.badge {
+    margin: 10px;
+    color: white;
+    background-color: #03045E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalidad {
+    margin-bottom: 20px;
+}
+.card-modalidad {
+    background-color: rgba(245, 246, 247, 1);
+    border-radius: 20px; 
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 300px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-container {
+    margin-right: 5px;
+
+}
+.card{
+    background-color: rgba(245, 246, 247, 1);
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.bi-person-square {
+    font-size: 100px;
+}
+.cobros {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.list-group-item {
+    margin-top: 20px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+}
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 30px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-iA ul li {
+    text-align: left;
+}

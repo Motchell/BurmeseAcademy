@@ -1,0 +1,172 @@
+/*Barra de navegacion*/
+.navbar {
+    background-color: #CAF0F8;
+    font-family: "Open Sans", sans-serif;
+}
+nav .navbar {
+    margin-top: 0;
+}
+.navbar-brand {
+    color: #03045E;
+    font-size: 40px;
+}
+.logo .navbar-brand:last-child {
+    margin-left: -18px;
+}
+.nav-item {
+    background-color: #4D4FCF;
+    border-radius: 20px;
+    margin-left: 4px;
+}
+.nav-item a {
+    color: white;
+}
+
+.barra-busqueda {
+    padding: 10px;
+    background-color:#CAF0F8;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    color: #03045E;
+    font-family: "Open Sans", sans-serif;
+}
+.buscar-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.buscar-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    font-size: 15px;
+    width: 100%;
+}
+.buscar-boton {
+    padding: 5px 20px;
+    background-color: #03045E;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+/*Contenido principal*/
+    /* Estilo para la imagen */
+    .bg-image {
+        background-image: url('/assets/burmese-cat-wall.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
+        background-size: cover;
+        background-position: center;
+        height: 100vh; /* Altura igual al 100% de la ventana */
+        position: relative;
+    }
+    
+      /* Estilo para el texto superpuesto */
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        text-align: left;
+    }
+
+
+
+
+/*Middle*/
+.middle {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.middle h2 {
+    font-family: "Open Sans", sans-serif;
+    color:#03045E;
+}
+.descripcion{
+    font-family: "Open Sans", sans-serif;
+    color:#03045E;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.foto {
+    font-size: 8rem;
+}
+.mision-vision h5{
+    color:#03045E;
+    font-family: "Open Sans", sans-serif;
+}
+.row {
+    margin-top: 40px;
+}
+.mision {
+    background-color: rgba(245, 246, 247, 1);
+    border-radius: 40px;
+    margin-left: 8px;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.vision {
+    background-color: rgba(245, 246, 247, 1);
+    border-radius: 40px;
+    margin-left: 8px;
+    padding: 2%;
+    text-align: center;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*quote*/
+.quote {
+    margin-bottom: 20px;
+    padding: 6%;
+    font-family: "Open Sans", sans-serif;
+    color:#03045E;
+}
+
+
+
+
+/*Misión-Visión*/
+.mision-vision {
+    margin-bottom: 20px;
+}
+
+
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 40px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none; /* Elimina la decoración de la lista */
+    padding-left: 0; /* Elimina el espacio por defecto a la izquierda */
+}
+.info-iA ul li {
+    text-align: left; /* Alinea los elementos de la lista a la izquierda */
+}

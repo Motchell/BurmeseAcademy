@@ -1,0 +1,138 @@
+body {
+    background-color: rgba(245, 246, 247, 1);
+}
+/* Barra superior */
+.navbar {
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.msg {
+	padding: 20px 0 0 20px;
+}
+
+
+/*Contenido principal*/
+.container-fluid.d-flex.justify-content-between {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    width: 20%;
+    font-family: "Open Sans", sans-serif;
+}
+.filtrobusqueda {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.opciones {
+    margin-top: 40px;
+    overflow-y: auto;
+    max-height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Filtro de busqueda*/
+.area-estudio {
+    margin: 5px;
+}
+.nivel-academico {
+    margin: 5px;
+}
+.input-group {
+    margin-left: 6px;
+}
+.row {
+    font-family: "Open Sans", sans-serif;
+}
+/*Contenido principal middle*/
+.container-middle {
+    margin-right: 6px;
+}
+.row h2 {
+    color: #03045E;
+    font-family: "Open Sans", sans-serif;
+    display: inline;
+}
+.instructores-container {
+    position: relative;
+    width: 64rem;
+    overflow: hidden;
+    margin: auto;
+}
+.instructores-cards {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 0.3s ease;
+}
+.instructores {
+    min-width: 18rem;
+    max-width: 18rem;
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0.1);
+}
+.card-title, .card-text {
+    color: white;
+}
+.info-instructor p, .info-instructor a {
+    margin: 0;
+    text-align: justify;
+}
+.info-instructor a {
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.fixed-column {
+    position: fixed;
+}
+
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 40px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-iA ul li {
+    text-align: left;
+}

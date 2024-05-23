@@ -1,0 +1,83 @@
+/*Fondo*/
+body {
+    background-color:  rgba(230, 231, 232, 1);
+    font-family: "Open Sans", sans-serif;
+}
+/* Barra de navegación*/
+.navbar {
+    margin-top: 20px;
+    background-color: #CAF0F8;
+    padding: 0.7rem;
+    font-family: "Capriola", sans-serif;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.logo .navbar-brand:last-child {
+    margin-left: -18px;
+}
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand {
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    color: #03045E;
+}
+.navbar-brand img {
+    border-radius: 50%;
+}
+/*Presentación y Login*/
+.presentacion-container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+.container-info {
+    margin: 5%;
+    flex: 2;
+}
+.container-info h1{
+    font-size: 2.5rem;
+    color:#03045E;
+    margin-bottom: 30px;
+}
+.login {
+    margin: 5%;
+    flex: 1;
+}
+.info {
+    margin-bottom: 10px;
+}
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 40px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-iA ul li {
+    text-align: left;
+}

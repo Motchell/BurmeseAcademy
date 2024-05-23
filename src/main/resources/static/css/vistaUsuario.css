@@ -1,0 +1,128 @@
+body {
+    background-color: rgba(245, 246, 247, 1);
+    font-family: "Open Sans", sans-serif;
+}
+/* Barra superior */
+.navbar {
+	margin-top: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/*Contenido principal*/
+.container-fluid {
+    margin-bottom: 10px;
+}
+.contenido-principal {
+    margin-left: 10px;
+}
+.card {
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+    text-align: center;
+}
+.big-icon {
+    font-size: 2.5rem;
+}
+.c-text-justify {
+    text-align: justify;
+}
+/* Contenedor escuelas */
+.escuelas-contenedor {
+    position: relative;
+    overflow: hidden;
+}
+.escuelas {
+    padding: 15px; 
+}
+/*Contenedor cursos*/
+.cursos-contenedor {
+    position: relative; 
+    overflow: hidden;
+}
+.cursos {
+    padding:  15px; 
+}
+/* Personalización flechas */
+.flechas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; 
+    height: 40px; 
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.flecha-izquierda {
+    left: 15px; 
+    background-color: #ffffff; 
+    border-radius: 5px; 
+}
+.flecha-derecha {
+    right: 15px; 
+    background-color: #ffffff; 
+    border-radius: 5px; 
+}
+/* Personalización flechas */
+.arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; 
+    height: 40px; 
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+}
+.left-arrow {
+    left: 15px; 
+    background-color: #ffffff; 
+    border-radius: 5px; 
+}
+.right-arrow {
+    right: 15px; 
+    background-color: #ffffff; 
+    border-radius: 5px; 
+}
+/*Otros*/
+.escuelas-cursos {
+    margin-left: 20px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 40px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-iA ul li {
+    text-align: left;
+}

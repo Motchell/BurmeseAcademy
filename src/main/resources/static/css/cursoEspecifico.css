@@ -1,0 +1,130 @@
+body {
+    background-color: rgba(245, 246, 247, 1);
+    font-family: "Open Sans", sans-serif;
+}
+/* Barra superior */
+/*Barra de navegacion*/
+.navbar {
+    background-color: #CAF0F8;
+    font-family: "Open Sans", sans-serif;
+}
+nav .navbar {
+    margin-top: 0;
+}
+.navbar-brand {
+    color: #03045E;
+    font-size: 40px;
+}
+.logo .navbar-brand:last-child {
+    margin-left: -18px;
+}
+.nav-item {
+    background-color: #4D4FCF;
+    border-radius: 20px;
+    margin-left: 4px;
+}
+.nav-item a {
+    color: white;
+}
+
+.barra-busqueda {
+    padding: 10px;
+    background-color:#CAF0F8;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    color: #03045E;
+    font-family: "Open Sans", sans-serif;
+}
+.buscar-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.buscar-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    font-size: 15px;
+    width: 100%;
+}
+.buscar-boton {
+    padding: 5px 20px;
+    background-color: #03045E;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+/*Contenido principal info-curso*/
+.container-fluid {
+    margin-bottom: 20px;
+}
+.info-curso {
+    flex: 2;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+.badge {
+    margin-right: 5px;
+    margin-bottom: 4px;
+}
+.accordion {
+    margin-bottom: 8px;
+}
+
+/*Contenido principal info-prof*/
+.info-prof {
+    flex: 1;
+    background-color:white;
+    color: black;
+    margin-top: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: "Open Sans", sans-serif;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+svg {
+margin-top: 10px;
+}
+
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 40px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-iA ul li {
+    text-align: left;
+}

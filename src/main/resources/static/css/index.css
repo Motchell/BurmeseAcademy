@@ -1,0 +1,225 @@
+@charset "UTF-8";
+/*Barra de navegacion*/
+.navbar {
+    background-color: #CAF0F8;
+    font-family: "Open Sans", sans-serif;
+}
+nav .navbar {
+    margin-top: 0;
+}
+.navbar-brand {
+    color: #03045E;
+    font-size: 40px;
+}
+.logo .navbar-brand:last-child {
+    margin-left: -18px;
+}
+.nav-item {
+    background-color: #4D4FCF;
+    border-radius: 20px;
+    margin-left: 4px;
+}
+.nav-item a {
+    color: white;
+}
+/*Barra busqueda*/
+.barra-busqueda {
+    padding: 10px;
+    background-color:#CAF0F8;
+    margin-bottom: 15px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    color: #03045E;
+    font-family: "Open Sans", sans-serif;
+}
+.buscar-container {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.buscar-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    font-size: 15px;
+    width: 100%;
+}
+.buscar-boton {
+    padding: 5px 20px;
+    background-color: #03045E;
+    color: white;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+/*Contenido principal top*/
+.left {
+    margin-top: 100px;
+}
+.left, .right {
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    font-family: "Open Sans", sans-serif;
+}
+.right {
+    margin-top: 20px;
+}
+.left h1 {
+    color: #03045E;
+}
+.carousel {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.carousel-inner {
+    height: 350px;
+    background-color: rgba(245, 246, 247, 1);
+    border-radius: 20px;
+}
+.carousel-item {
+    padding: 40px;
+}
+.col-4 .imagen {
+    margin-left: 10px;
+}
+.texto {
+    font-size: 1.2em;
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+/*Contenido principal middle*/
+.container-middle {
+    margin-top: 40px;
+}
+.container-middle h2 {
+    color: #03045E;
+}
+.instructores-container {
+    position: relative;
+    width: 64rem;
+    overflow: hidden;
+    margin: auto;
+}
+.instructores-cards {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    transition: transform 0.3s ease;
+}
+.instructores {
+    min-width: 20rem;
+    max-width: 20rem;
+    margin: 10px;
+}
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.card-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0.3);
+}
+.card-title, .card-text {
+    color: white;
+}
+.info-instructor p, .info-instructor a {
+    margin: 0;
+    text-align: justify;
+}
+.info-instructor a {
+    display: block;
+    text-align: left;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.flechas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 2;
+}
+.flecha-izquierda {
+    left: 5px; 
+}
+.flecha-derecha {
+    right: 5px;
+}
+
+/*Contenido principal bottom*/
+.container-bottom {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.container-bottom h2 {
+    color: #03045E;
+}
+.cards {
+    width: 300px;
+    height: 370px;
+    margin-left: 2px;
+    background-color: rgba(245, 246, 247, 1);
+    border: 1px solid #ddd;
+}
+.card-img-top {
+    width: 300px;
+    height: 200px;
+}
+.cards-body p {
+    margin: 0;
+    color: black;
+}
+.cards-body h5 {
+    margin: 0;
+    color: black;
+}
+/*Footer*/
+.footer {
+    background-color: #4D4FCF;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+.footer h6 {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 10px;
+}
+.principal {
+    padding: 40px;
+}
+.principal .contacto a {
+    text-decoration: none;
+    color: white;
+}
+.iconos svg{
+    margin-left: 6px;
+}
+.info-iA{
+    margin-right: 20px;
+}
+.info-iA ul {
+    list-style: none;
+    padding-left: 0;
+}
+.info-iA ul li {
+    text-align: left;
+}
